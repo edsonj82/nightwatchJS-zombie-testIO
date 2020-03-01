@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="login.test.multiple.steps"
+    errors="0" failures="0" hostname="" id="" package="login.test.multiple.steps" skipped="0"
+    tests="3" time="6.308" timestamp="">
+  
+    <testcase name="dado que eu acesso a página de login" classname="login.test.multiple.steps" time="4.650" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="quando faço login com sucesso" classname="login.test.multiple.steps" time="0.7710" assertions="0">
+    </testcase>
+  
+    <testcase name="então devo ver o meu nome na área logada" classname="login.test.multiple.steps" time="0.8870" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
