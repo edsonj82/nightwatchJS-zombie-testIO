@@ -1,0 +1,22 @@
+{
+  "name": "zombieplus",
+  "version": "1.0.0",
+  "description": "Projetos de testes automatizados com NightWatchJS",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonj82/nightwatchJS-zombie-testIO.git"
+  },
+  "author": "Edson José dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^80.0.1",
+    "nightwatch": "^1.3.4"
+  },
+  "dependencies": {
+    "geckodriver": "^1.19.1"
+  }
+}
