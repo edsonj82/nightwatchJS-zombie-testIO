@@ -1,6 +1,6 @@
 module.exports = {
-    'login com sucesso': function (browser) {
-        var userInfo = '.user .info span';
+    'login com sucesso': (browser) => {
+        let userInfo = '.user .info span';
         browser
             .url('http://zombie-api:5000/login')
             .waitForElementVisible('.card-login', 3000)
