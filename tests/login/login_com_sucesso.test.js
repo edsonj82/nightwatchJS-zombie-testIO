@@ -1,4 +1,5 @@
 module.exports = {
+    '@disabled': true,
     'login com sucesso': (browser) => {
         let userInfo = '.user .info span';
         browser
