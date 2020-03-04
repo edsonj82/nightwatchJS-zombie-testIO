@@ -1,4 +1,5 @@
 module.exports = {
+    '@disabled': true,
     'dado que eu acesso a página de login': function (browser) {
         browser
             .resizeWindow(1920, 1000)

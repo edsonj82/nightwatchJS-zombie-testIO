@@ -1,5 +1,11 @@
 module.exports = {
-    '@disabled': true,
+    before: (browser) => {
+        browser.resizeWindow(1920,1000)
+    },
+    after: (browser) => {
+        browser.end();
+    },
+    //'@disabled': true,
     'login com sucesso': (browser) => {
         let userInfo = '.user .info span';
         browser
@@ -10,6 +16,5 @@ module.exports = {
             .click('.login-button')
             .waitForElementVisible(userInfo, 3000)
             .assert.containsText(userInfo, 'Quilombo')
-            .end();
     }
 }

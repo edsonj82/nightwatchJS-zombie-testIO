@@ -1,5 +1,15 @@
 module.exports = {
-    '@disabled': true,
+
+    before:(browser) =>{
+        browser
+        .resizeWindow(1920, 1000)       
+    },
+
+    after: (browser) =>{
+        browser.end();
+    },
+
+    //'@disabled': true,
     'senha incorreta': (browser) => {
         let alert = '.alert-danger';
         browser
@@ -42,7 +52,6 @@ module.exports = {
         .setValue('input[name=password]','')
         .click('.login-button')
         .waitForElementVisible(alert,3000)
-        .assert.containsText(alert, 'Opps. Cadê a senha?')
-        .end();
+        .assert.containsText(alert, 'Opps. Cadê a senha?')     
     }
 }
