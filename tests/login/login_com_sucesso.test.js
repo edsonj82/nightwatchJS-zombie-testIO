@@ -14,10 +14,11 @@ module.exports = {
         browser.resizeWindow(1920,1000);
 
         login.navigate()
-            .waitForElementVisible('@form', 3000)//.url('http://zombie-api:5000/login')
-            .setValue('@emailInput', 'zumbi@dospalmares.com.br')
-            .setValue('@passInput','pwd123')
-            .click('.login-button')
+            .with('zumbi@dospalmares.com.br','pwd123')
+            // .waitForElementVisible('@form', 3000)//.url('http://zombie-api:5000/login')
+            // .setValue('@emailInput', 'zumbi@dospalmares.com.br')
+            // .setValue('@passInput','pwd123')
+            // .click('.login-button')
 
         sidebar    
             .waitForElementVisible('@userInfo', 3000)
