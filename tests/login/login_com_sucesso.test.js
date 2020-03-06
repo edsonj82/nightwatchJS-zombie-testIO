@@ -1,10 +1,5 @@
 module.exports = {
-    before: (browser) => {
-        browser.resizeWindow(1920,1000)
-    },
-    after: (browser) => {
-        browser.end();
-    },
+
     //'@disabled': true,
     'login com sucesso': (browser) => {
         //let userInfo = '.user .info span';        
