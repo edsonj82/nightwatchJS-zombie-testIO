@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="1">
 
   <testsuite name="novo_filme.test"
     errors="0" failures="0" hostname="" id="" package="novo_filme.test" skipped="0"
-    tests="2" time="0.01600" timestamp="">
+    tests="1" time="6.346" timestamp="">
   
-    <testcase name="dados que eu tenho um novo filme" classname="novo_filme.test" time="0.007000" assertions="0">
-    </testcase>
-  
-    <testcase name="quando eu faço o cadastro do filme" classname="novo_filme.test" time="0.009000" assertions="0">
+    <testcase name="quando eu faço o cadastro do filme" classname="novo_filme.test" time="6.346" assertions="1">
+
+    
     </testcase>
   
 
