@@ -1,26 +1,12 @@
 Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 9515
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1583716311,234][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716311,335][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716311,437][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716311,539][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716311,640][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716311,742][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716312,891][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,023][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,125][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,226][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,329][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,431][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,535][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,637][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,739][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,840][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716313,943][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716314,045][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716314,146][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716314,248][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716314,350][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716314,451][SEVERE]: Timed out receiving message from renderer: 0,100
-[1583716314,553][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979345,061][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979345,163][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979345,264][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979345,365][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979345,466][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979346,588][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979346,689][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979346,791][SEVERE]: Timed out receiving message from renderer: 0,100
+[1583979346,892][SEVERE]: Timed out receiving message from renderer: 0,100

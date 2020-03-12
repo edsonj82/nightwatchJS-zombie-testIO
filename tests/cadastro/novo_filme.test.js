@@ -5,7 +5,7 @@ module.exports = {
 
         movieData = {
             title: 'Resident Evil',
-            status: 'Disponivel',
+            status: 'Disponível',
             year: 2002,
             releaseDate: '01/05/2002',
             cast: ['Milla Jovovick', 'Ali Larter', 'Ian Glen', 'Shan Roberts'],
@@ -24,9 +24,9 @@ module.exports = {
         let movie = browser.page.movie();
 
         movie
-        .click('@addButton')
-        .waitForElementVisible('@movieForm',3000)
+        .createForm()
         .setValue('@titleInput', movieData.title)
+        .selectStatus(movieData.status)
         .pause(5000)
     }
 }
