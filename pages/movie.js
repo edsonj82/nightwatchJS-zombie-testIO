@@ -13,8 +13,14 @@ var createActions = {
             .useCss()
     },
     insertCast: function (cast) {
-        return this
-            .setValue('@castInput',)
+        const browser = this
+
+        cast.forEach(function (actor){
+            browser
+                .setValue('@castInput',actor)
+                .api.keys(browser.api.Keys.TAB)    
+        });
+        return this;        
     }
 }
 
@@ -27,7 +33,8 @@ module.exports = {
     statusSelect: 'input[placeholder=Status]',
     yearInput: 'input[name=year]',
     dateInput: 'input[name=release_date]',
+    castInput: '.cast',
     plotInput: 'textarea[name=overview]',
-    createButton: '@create-movie'
+    createButton: '#create-movie'
     }
 }

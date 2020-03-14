@@ -29,7 +29,8 @@ module.exports = {
         .selectStatus(movieData.status)
         .setValue('@yearInput',movieData.year)
         .setValue('@dateInput',movieData.releaseDate)
+        .insertCast(movieData.cast)        
         .setValue('@plotInput',movieData.plot)
-        .pause(15000)
+        .click('@createButton')
     }
 }
