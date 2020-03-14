@@ -11,6 +11,10 @@ var createActions = {
             .waitForElementVisible(`//li//span[contains(text(), "${status}")]`,2000)
             .click(`//li//span[contains(text(), "${status}")]`)
             .useCss()
+    },
+    insertCast: function (cast) {
+        return this
+            .setValue('@castInput',)
     }
 }
 

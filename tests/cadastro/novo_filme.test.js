@@ -27,6 +27,9 @@ module.exports = {
         .createForm()
         .setValue('@titleInput', movieData.title)
         .selectStatus(movieData.status)
-        .pause(5000)
+        .setValue('@yearInput',movieData.year)
+        .setValue('@dateInput',movieData.releaseDate)
+        .setValue('@plotInput',movieData.plot)
+        .pause(15000)
     }
 }
