@@ -38,8 +38,9 @@ module.exports = {
         .click('@createButton')
     },
     'então devo ver o filme na lista': function (browser) {
-        browser
-            .waitForElementVisible('table tbody',5000)
-            .assert.containsText('table tbody', movieData.title)
+        let movie = browser.page.movie()
+        movie
+            .waitForElementVisible('@list',5000)
+            .assert.containsText('@list', movieData.title)
     }
 }

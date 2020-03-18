@@ -35,6 +35,7 @@ module.exports = {
     dateInput: 'input[name=release_date]',
     castInput: '.cast',
     plotInput: 'textarea[name=overview]',
-    createButton: '#create-movie'
+    createButton: '#create-movie',
+    list: 'table tbody'
     }
 }
