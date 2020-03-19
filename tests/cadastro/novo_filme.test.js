@@ -15,7 +15,7 @@ module.exports = {
             plot: 'A missão do esquadrão e da Alice é desligar a Rainha Vermelha e coletar dados sobre o incidente.'
         }
 
-        pg.removeByTitle(movieData.title)
+        //pg.removeByTitle(movieData.title)
 
         let login = browser.page.login();
         let sidebar = browser.page.sidebar();

@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
-            tests="0">
+            tests="2">
 
   <testsuite name="novo_filme.test"
-    errors="1" failures="0" hostname="" id="" package="novo_filme.test" skipped="2"
-    tests="0" time="0.000" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="novo_filme.test" skipped="0"
+    tests="2" time="14.36" timestamp="">
+  
+    <testcase name="quando eu faço o cadastro do filme" classname="novo_filme.test" time="13.04" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="então devo ver o filme na lista" classname="novo_filme.test" time="1.314" assertions="2">
+
+    
+
+    
+    </testcase>
   
 
   
-    <system-err>
-      [0;31m  ReferenceError: Pool is not defined[0m
-[0;90m       at Object.before (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/cadastro/novo_filme.test.js:21:22)
-       at new Promise (&lt;anonymous&gt;)[0m
-    </system-err>
-  
 
-  
-    
-    <testcase
-      name="quando eu faço o cadastro do filme" classname="novo_filme.test">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="então devo ver o filme na lista" classname="novo_filme.test">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
