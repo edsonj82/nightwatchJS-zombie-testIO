@@ -3,8 +3,8 @@ import pg from '../../lib/db';
 let movieData = {}
 
 module.exports = {
-
     before: function (browser) {
+
         movieData = {
         title: 'Meu namorado eh um zumbi',
         status: 'Disponível',
@@ -29,8 +29,9 @@ module.exports = {
     
     'quando eu faço a busca pelo título': function(browser){
         let movie = browser.page.movie()
+
         movie
-            .setValue('@searchInput',movie.title)
+            .setValue('@searchInput', movie.title)
             .click('@searchIcon')
     },
 
