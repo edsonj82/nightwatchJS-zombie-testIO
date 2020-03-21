@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="2">
 
   <testsuite name="404.test"
-    errors="0" failures="1" hostname="" id="" package="404.test" skipped="0"
-    tests="2" time="10.96" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="404.test" skipped="0"
+    tests="2" time="1.782" timestamp="">
   
-    <testcase name="quanto busco um título não cadastrado" classname="404.test" time="0.5250" assertions="0">
+    <testcase name="quanto busco um título não cadastrado" classname="404.test" time="0.6380" assertions="0">
     </testcase>
   
-    <testcase name="então devo ver uma mensagem de alerta" classname="404.test" time="10.43" assertions="1">  <failure message="Timed out while waiting for element &lt;@alertDanger&gt; to be present for 10000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(10406ms)[0m">    at Object.entODevoVerUmaMensagemDeAlerta [as então devo ver uma mensagem de alerta] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/404.test.js:21:14)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase name="então devo ver uma mensagem de alerta" classname="404.test" time="1.144" assertions="2">
 
     
-      <failure message="    at Object.entODevoVerUmaMensagemDeAlerta [as então devo ver uma mensagem de alerta] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/404.test.js:21:14)">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
     </testcase>
   
 
   
     <system-err>
-      [0;31m  Error: Element &#34;tr&#34; was not found in &#34;movie&#34;. Available elements: addButton, searchInput, searchIcon, alertDanger, movieForm, titleInput, statusSelect, yearInput, dateInput, castInput, plotInput, uploadInput, createButton, list[0m
-[0;90m       at Object.entOOTTuloBuscadoDeveSerExibidoNaLista [as então o título buscado deve ser exibido na lista] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/busca.test.js:44:21)[0m
+      [0;31m  ReferenceError: title is not defined[0m
+[0;90m       at /home/edson/workspace/course/nightwatchJS/qa-ninja/lib/db.js:37:68
+       at new Promise (&lt;anonymous&gt;)
+       at Object.insertMovie (/home/edson/workspace/course/nightwatchJS/qa-ninja/lib/db.js:35:16)
+       at /home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/busca.test.js:20:20
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
     </system-err>
   
 
