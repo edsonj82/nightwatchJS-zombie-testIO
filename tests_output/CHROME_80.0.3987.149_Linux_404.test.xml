@@ -5,12 +5,12 @@
 
   <testsuite name="404.test"
     errors="0" failures="0" hostname="" id="" package="404.test" skipped="0"
-    tests="2" time="1.782" timestamp="">
+    tests="2" time="1.779" timestamp="">
   
-    <testcase name="quanto busco um título não cadastrado" classname="404.test" time="0.6380" assertions="0">
+    <testcase name="quanto busco um título não cadastrado" classname="404.test" time="0.6310" assertions="0">
     </testcase>
   
-    <testcase name="então devo ver uma mensagem de alerta" classname="404.test" time="1.144" assertions="2">
+    <testcase name="então devo ver uma mensagem de alerta" classname="404.test" time="1.148" assertions="2">
 
     
 
