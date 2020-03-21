@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="busca.404.test"
+    errors="0" failures="1" hostname="" id="" package="404.test" skipped="0"
+    tests="2" time="11.08" timestamp="">
+  
+    <testcase name="quanto busco um título não cadastrado" classname="busca.404.test" time="0.6690" assertions="0">
+    </testcase>
+  
+    <testcase name="então devo ver uma mensagem de alerta" classname="busca.404.test" time="10.41" assertions="1">  <failure message="Timed out while waiting for element &lt;@alertDanger&gt; to be present for 10000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(10387ms)[0m">    at Object.entODevoVerUmaMensagemDeAlerta [as então devo ver uma mensagem de alerta] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/404.test.js:21:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+      <failure message="    at Object.entODevoVerUmaMensagemDeAlerta [as então devo ver uma mensagem de alerta] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/404.test.js:21:14)">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: Element &#34;tr&#34; was not found in &#34;movie&#34;. Available elements: addButton, searchInput, searchIcon, alertDanger, movieForm, titleInput, statusSelect, yearInput, dateInput, castInput, plotInput, uploadInput, createButton, list[0m
+[0;90m       at Object.entOOTTuloBuscadoDeveSerExibidoNaLista [as então o título buscado deve ser exibido na lista] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/busca.test.js:44:21)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

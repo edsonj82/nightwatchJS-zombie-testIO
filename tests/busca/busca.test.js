@@ -15,10 +15,10 @@ module.exports = {
         plot: 'E um mundo pós-apocaliptico, um zumbi se apaixona por uma humana.'
         }
 
-        // pg.removeByTitle(movieData.title).then(
-        //     function () { 
-        //         pg.insertMovie(movieData)
-        //     }) 
+        pg.removeByTitle(movieData.title).then(
+            function () { 
+                pg.insertMovie(movieData)
+            }) 
             
         let login = browser.page.login();
         let sidebar = browser.page.sidebar();

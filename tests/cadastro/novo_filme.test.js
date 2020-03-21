@@ -15,7 +15,11 @@ module.exports = {
             plot: 'A missão do esquadrão e da Alice é desligar a Rainha Vermelha e coletar dados sobre o incidente.'
         }
 
-        //pg.removeByTitle(movieData.title)
+        pg.removeByTitle(movieData.title)
+        // .then(x => {
+        //     console.log('then executed');
+        // })
+        // .catch(e => console.log("dang ", e));
 
         let login = browser.page.login();
         let sidebar = browser.page.sidebar();
@@ -43,6 +47,7 @@ module.exports = {
         let movie = browser.page.movie()
         movie
             .waitForElementVisible('@list',5000)
+        movie
             .assert.containsText('@list', movieData.title)
     }
 }
