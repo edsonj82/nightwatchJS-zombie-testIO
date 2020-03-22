@@ -5,12 +5,12 @@
 
   <testsuite name="404.test"
     errors="0" failures="0" hostname="" id="" package="404.test" skipped="0"
-    tests="2" time="1.779" timestamp="">
+    tests="2" time="1.736" timestamp="">
   
-    <testcase name="quanto busco um título não cadastrado" classname="404.test" time="0.6310" assertions="0">
+    <testcase name="quanto busco um título não cadastrado" classname="404.test" time="0.5820" assertions="0">
     </testcase>
   
-    <testcase name="então devo ver uma mensagem de alerta" classname="404.test" time="1.148" assertions="2">
+    <testcase name="então devo ver uma mensagem de alerta" classname="404.test" time="1.154" assertions="2">
 
     
 
@@ -18,15 +18,6 @@
     </testcase>
   
 
-  
-    <system-err>
-      [0;31m  ReferenceError: title is not defined[0m
-[0;90m       at /home/edson/workspace/course/nightwatchJS/qa-ninja/lib/db.js:37:68
-       at new Promise (&lt;anonymous&gt;)
-       at Object.insertMovie (/home/edson/workspace/course/nightwatchJS/qa-ninja/lib/db.js:35:16)
-       at /home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/busca.test.js:20:20
-       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
-    </system-err>
   
 
   

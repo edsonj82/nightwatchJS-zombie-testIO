@@ -48,6 +48,7 @@ module.exports = {
     plotInput: 'textarea[name=overview]',
     uploadInput: '#upcover',
     createButton: '#create-movie',
-    list: 'table tbody'
+    list: 'table tbody',
+    tr: 'table tbody tr'
     }
 }
