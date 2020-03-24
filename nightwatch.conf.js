@@ -20,12 +20,16 @@ module.exports = {
 
     test_settings: {
         default: {
+            launch_url:'http://zombie-api:5000',
             globals:{
                 waitForConditionTimeout: 15000
             },
             desiredCapabilities: {
                 browserName: "chrome"
             }
+        },
+        stage:{
+            launch_url:'http://stage.zombieplus.com.br',
         }
     }
 }
