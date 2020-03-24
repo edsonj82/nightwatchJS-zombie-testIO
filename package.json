@@ -4,6 +4,8 @@
   "description": "Projetos de testes automatizados com NightWatchJS",
   "main": "index.js",
   "scripts": {
+    "test:login":".\\node_modules\\.bin\\nightwatch --group login",
+    "test:nologin":".\\node_modules\\.bin\\nightwatch --skipgroup login",
     "test": ".\\node_modules\\.bin\\nightwatch"
   },
   "repository": {

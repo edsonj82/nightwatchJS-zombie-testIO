@@ -4,10 +4,10 @@
             tests="1">
 
   <testsuite name="login.email_nao_informado.test"
-    errors="0" failures="0" hostname="" id="" package="email_nao_informado.test" skipped="0"
-    tests="1" time="2.923" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="1" time="8.397" timestamp="">
   
-    <testcase name="email não informado" classname="login.email_nao_informado.test" time="2.923" assertions="3">
+    <testcase name="email não informado" classname="login.email_nao_informado.test" time="8.397" assertions="3">
 
     
 
@@ -17,11 +17,6 @@
     </testcase>
   
 
-  
-    <system-err>
-      [0;31m  Error: Element &#34;tr&#34; was not found in &#34;movie&#34;. Available elements: addButton, searchInput, searchIcon, alertDanger, movieForm, titleInput, statusSelect, yearInput, dateInput, castInput, plotInput, uploadInput, createButton, list[0m
-[0;90m       at Object.entOOTTuloBuscadoDeveSerExibidoNaLista [as então o título buscado deve ser exibido na lista] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/busca.test.js:44:21)[0m
-    </system-err>
   
 
   

@@ -4,10 +4,10 @@
             tests="1">
 
   <testsuite name="login.senha_nao_informada.test"
-    errors="0" failures="0" hostname="" id="" package="senha_nao_informada.test" skipped="0"
-    tests="1" time="3.689" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="1" time="14.29" timestamp="">
   
-    <testcase name="senha não informada" classname="login.senha_nao_informada.test" time="3.689" assertions="3">
+    <testcase name="senha não informada" classname="login.senha_nao_informada.test" time="14.29" assertions="3">
 
     
 
@@ -17,11 +17,6 @@
     </testcase>
   
 
-  
-    <system-err>
-      [0;31m  Error: Element &#34;tr&#34; was not found in &#34;movie&#34;. Available elements: addButton, searchInput, searchIcon, alertDanger, movieForm, titleInput, statusSelect, yearInput, dateInput, castInput, plotInput, uploadInput, createButton, list[0m
-[0;90m       at Object.entOOTTuloBuscadoDeveSerExibidoNaLista [as então o título buscado deve ser exibido na lista] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/busca/busca.test.js:44:21)[0m
-    </system-err>
   
 
   
