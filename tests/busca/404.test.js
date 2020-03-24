@@ -1,4 +1,5 @@
 module.exports = {
+    '@tags': ['smoke','404'],
 
     before: function (browser) {
         let login = browser.page.login();
