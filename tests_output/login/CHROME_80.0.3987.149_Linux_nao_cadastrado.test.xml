@@ -5,9 +5,9 @@
 
   <testsuite name="login.nao_cadastrado.test"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="1" time="7.143" timestamp="">
+    tests="1" time="11.27" timestamp="">
   
-    <testcase name="não cadastrado" classname="login.nao_cadastrado.test" time="7.143" assertions="3">
+    <testcase name="não cadastrado" classname="login.nao_cadastrado.test" time="11.27" assertions="3">
 
     
 
