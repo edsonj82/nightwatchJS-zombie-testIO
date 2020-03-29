@@ -1,6 +1,10 @@
 require('babel-core/register')
 
 const chromedriver = require('chromedriver');
+require('geckodriver')
+
+const testUrl = 'http://zombie-api:5000'
+const defaultTimeout = 15000
 
 module.exports = {
     src_folders: ['tests'], 
@@ -9,8 +13,8 @@ module.exports = {
 
     webdriver: {
         start_process: true,
-        server_path: chromedriver.path,
-        port: 9515
+        // server_path: chromedriver.path,
+        // port: 9515
     },
 
     test_workers: {
@@ -20,12 +24,32 @@ module.exports = {
 
     test_settings: {
         default: {
-            launch_url:'http://zombie-api:5000',
+            launch_url:testUrl,
             globals:{
-                waitForConditionTimeout: 15000
+                waitForConditionTimeout: defaultTimeout
             },
+            webdriver:{
+                server_path: chromedriver.path,
+                port: 9515
+            },
+
             desiredCapabilities: {
                 browserName: "chrome"
+            }
+        },
+        firefox:{
+            launch_url:testUrl,
+            globals:{
+                waitForConditionTimeout: defaultTimeout
+            },
+            webdriver:{
+                server_path: './node_modules/.bin/geckodriver',
+                port: 4444
+            },
+
+            desiredCapabilities: {
+                browserName: "firefox",
+                acceptInsecureCerts:true
             }
         },
         stage:{

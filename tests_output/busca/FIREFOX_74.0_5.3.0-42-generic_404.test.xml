@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="busca.404.test"
+    errors="0" failures="0" hostname="" id="" package="busca" skipped="0"
+    tests="2" time="1.533" timestamp="">
+  
+    <testcase name="quanto busco um título não cadastrado" classname="busca.404.test" time="0.4010" assertions="0">
+    </testcase>
+  
+    <testcase name="então devo ver uma mensagem de alerta" classname="busca.404.test" time="1.132" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
