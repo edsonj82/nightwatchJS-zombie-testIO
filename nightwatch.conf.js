@@ -37,6 +37,24 @@ module.exports = {
                 browserName: "chrome"
             }
         },
+        headless:{
+            launch_url:testUrl,
+            globals:{
+                waitForConditionTimeout: defaultTimeout
+            },
+            webdriver:{
+                server_path: chromedriver.path,
+                port: 9515
+            },
+
+            desiredCapabilities: {
+                browserName: "chrome",
+                chromeOptions:{
+                    w3c:false,
+                    args:['--headless','--no-sandbox']
+                }
+            }
+        },
         firefox:{
             launch_url:testUrl,
             globals:{

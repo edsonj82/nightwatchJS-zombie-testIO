@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="2">
 
   <testsuite name="busca.404.test"
-    errors="0" failures="0" hostname="" id="" package="busca" skipped="0"
-    tests="2" time="1.947" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="busca" skipped="0"
+    tests="2" time="1.618" timestamp="">
   
-    <testcase name="quanto busco um título não cadastrado" classname="busca.404.test" time="0.7670" assertions="0">
+    <testcase name="quanto busco um título não cadastrado" classname="busca.404.test" time="0.4630" assertions="0">
     </testcase>
   
-    <testcase name="então devo ver uma mensagem de alerta" classname="busca.404.test" time="1.180" assertions="2">
+    <testcase name="então devo ver uma mensagem de alerta" classname="busca.404.test" time="1.155" assertions="2">
 
     
 

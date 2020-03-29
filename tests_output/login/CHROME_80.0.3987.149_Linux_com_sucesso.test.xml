@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="login.com_sucesso.test"
-    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="1" time="6.052" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="1" time="11.46" timestamp="">
   
-    <testcase name="login com sucesso" classname="login.com_sucesso.test" time="6.052" assertions="3">
+    <testcase name="login com sucesso" classname="login.com_sucesso.test" time="11.46" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;.user .info span&gt; to be visible for 3000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m [0;90m(3211ms)[0m">    at Page.expectLoggedUser (/home/edson/workspace/course/nightwatchJS/qa-ninja/pages/sidebar.js:4:14)
+    at Object.loginComSucesso [as login com sucesso] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/login/com_sucesso.test.js:17:17)</failure>
 
     
-
-    
-
-    
+      <failure message="    at Page.expectLoggedUser (/home/edson/workspace/course/nightwatchJS/qa-ninja/pages/sidebar.js:4:14)">    at Object.loginComSucesso [as login com sucesso] (/home/edson/workspace/course/nightwatchJS/qa-ninja/tests/login/com_sucesso.test.js:17:17)</failure>
     </testcase>
   
 

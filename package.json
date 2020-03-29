@@ -6,7 +6,7 @@
   "scripts": {
     "test:login": ".\\node_modules\\.bin\\nightwatch --group login",
     "test:nologin": ".\\node_modules\\.bin\\nightwatch --skipgroup login",
-    "test:smoke": ".\\node_modules\\.bin\\nightwatch --tag smoke --env=firefox",
+    "test:smoke": ".\\node_modules\\.bin\\nightwatch --tag smoke --env=headless",
     "stage_smoke": ".\\node_modules\\.bin\\nightwatch --tag smoke --env=stage",
     "test:notag": ".\\node_modules\\.bin\\nightwatch --skiptags smoke,404",
     "test": ".\\node_modules\\.bin\\nightwatch"
