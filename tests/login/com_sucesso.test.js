@@ -1,6 +1,6 @@
 module.exports = {
     '@tags': ['smoke'],
-    //'@disabled': true,
+    '@disabled': true,
     'login com sucesso': (browser) => {
         //let userInfo = '.user .info span';        
         let login = browser.page.login()

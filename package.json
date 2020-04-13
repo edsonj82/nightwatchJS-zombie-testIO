@@ -10,7 +10,7 @@
     "stage_smoke": ".\\node_modules\\.bin\\nightwatch --tag smoke --env=stage",
     "test:notag": ".\\node_modules\\.bin\\nightwatch --skiptags smoke,404",
     "test": ".\\node_modules\\.bin\\nightwatch",
-    "test:ci": "./node_modules/.bin/nightwatch --tag smoke --env=headless"
+    "test:ci": "./node_modules/.bin/nightwatch  --group login --env=headless"
   },
   "repository": {
     "type": "git",
