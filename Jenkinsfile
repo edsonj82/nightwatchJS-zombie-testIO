@@ -1,8 +1,8 @@
 pipeline{
     agent {
         docker{ 
-            //image 'edsonj82/node-wd'
-            image 'qaninja/node-wd'
+            image 'edsonj82/node-wd'
+            // image 'qaninja/node-wd'
             args '--network=skynet'
             }
     }
