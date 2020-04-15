@@ -113,5 +113,16 @@ RUN printf '#!/bin/sh\nXvfb :99 -screen 0 1280x1024x24 &\nexec "$@"\n' > /tmp/en
 # ensure that the build agent doesn't override the entrypoint
 LABEL io.qaninja.preserve-entrypoint=true
 
+
+WORKDIR /home
+VOLUME /home/qaninja/data-qaninja 
+
+COPY . .
+
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["/bin/sh"]
+
+RUN sudo su
+
+#RUN npm run test:ci
+
+CMD ["npm", "run", "test:ci"]
