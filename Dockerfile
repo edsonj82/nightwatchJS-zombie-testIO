@@ -40,6 +40,9 @@ RUN groupadd --gid 3434 qaninja \
   && echo 'qaninja ALL=NOPASSWD: ALL' >> /etc/sudoers.d/50-qaninja \
   && echo 'Defaults    env_keep += "DEBIAN_FRONTEND"' >> /etc/sudoers.d/env_keep
 
+RUN adduser qaninja sudo
+
+
 USER qaninja
 ENV PATH /home/qaninja/.local/bin:/home/qaninja/bin:${PATH}
 
