@@ -15,8 +15,8 @@ pipeline{
         }
         stage("Tests"){
             steps{
-                sh "npm run test:ci"
-                // jasmine testResult: 'tests_output/**/*.xml'
+                sh "npm run test:ci",
+                jasmine testResult: "tests_output/**/*.xml"
             }            
         }
     }
